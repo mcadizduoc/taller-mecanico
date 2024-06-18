@@ -1,0 +1,20 @@
+body {
+    padding-top: 50px;
+}
+.jumbotron {
+    background-color: #f8f9fa;
+    background-image: url('img/car_background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.service-img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}

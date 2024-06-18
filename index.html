@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taller Mecánico</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="assets/index.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Taller Mecánico</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#servicios">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main role="main">
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h1 class="display-4">Bienvenido a nuestro taller mecánico</h1>
+        <p class="lead">Ofrecemos servicios profesionales de reparación y mantenimiento para tu vehículo.</p>
+      </div>
+    </div>
+
+    <!-- Servicios -->
+    <div id="servicios" class="container">
+      <h2 class="text-center">Nuestros Servicios</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="assets/img/car_repair.jpeg" width="400" height="300" class="service-img" alt="Reparación General">
+          <h3 class="mt-3">Reparación General</h3>
+          <p>Reparamos problemas mecánicos, eléctricos y electrónicos en vehículos de todas las marcas.</p>
+        </div>
+        <div class="col-lg-4">
+          <img src="assets/img/car_maintenance.jpg" width="400" height="300" class="service-img" alt="Mantenimiento Preventivo">
+          <h3 class="mt-3">Mantenimiento Preventivo</h3>
+          <p>Realizamos mantenimiento regular para mantener tu vehículo en óptimas condiciones.</p>
+        </div>
+        <div class="col-lg-4">
+          <img src="assets/img/car_inspection.jpg" width="400" height="300" class="service-img" alt="Inspección y Diagnóstico">
+          <h3 class="mt-3">Inspección y Diagnóstico</h3>
+          <p>Diagnosticamos problemas complejos y te ofrecemos soluciones efectivas.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contacto -->
+    <div id="contacto" class="container mt-5">
+      <h2 class="text-center">Contáctanos</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <form>
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="footer mt-auto py-3 bg-dark text-white">
+    <div class="container text-center">
+      <span>&copy; 2024 Taller Mecánico. Todos los derechos reservados.</span>
+    </div>
+  </footer>
+
+</body>
+</html>
